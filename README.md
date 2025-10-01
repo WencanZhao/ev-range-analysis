@@ -1,10 +1,10 @@
-# EV Range in Cold Weather ❄️🔋  
+# EV Range in Cold Weather 
 
 This project investigates how **low ambient temperatures** affect the driving range of electric vehicles (EVs). The analysis is based on sample data and demonstrates how to quantify range loss, visualize results, and interpret findings.  
 
 ---
 
-## 📌 Background  
+##  Background  
 
 Cold weather has been observed to **significantly reduce EV range**, often due to increased energy demands from **battery chemistry inefficiency** and **cabin heating systems**. Studies show losses of **20–50%** in real-world conditions.  
 
@@ -12,7 +12,7 @@ This project replicates that effect using synthetic but realistic data, and eval
 
 ---
 
-## 📊 Data  
+##  Data  
 
 The dataset (`data/ev_data_sample.csv`) contains:  
 - **Ambient Temperature (°C)**  
@@ -40,7 +40,7 @@ Example (first 5 rows):
 
 ---
 
-## 📈 Results  
+##  Results  
 
 Example result when running the analysis:  
 
@@ -52,7 +52,7 @@ Example result when running the analysis:
 
 ---
 
-## 🔎 Discussion  
+##  Discussion  
 
 - **Battery chemistry**: Li-ion batteries lose efficiency in cold weather due to slower electrochemical reactions  
 - **Cabin heating load**: Electric heating consumes significant energy, amplifying range loss  
@@ -60,7 +60,7 @@ Example result when running the analysis:
 
 ---
 
-## 🚀 Future Work  
+##  Future Work  
 
 - Collect real-world driving datasets across climates  
 - Compare different regression models (linear vs polynomial vs machine learning)  
@@ -69,7 +69,7 @@ Example result when running the analysis:
 
 ---
 
-## 🛠️ How to Run  
+##  How to Run  
 
 ```bash
 pip install -r requirements.txt
