@@ -24,3 +24,8 @@ When you run the script, you’ll get a figure like this:
 ## Requirements
 ```bash
 pip install -r requirements.txt
+
+## Results
+Here is the estimated range loss due to cold weather:
+
+![Range Loss](results/range_loss.png)
